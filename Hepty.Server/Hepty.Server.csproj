@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <UserSecretsId>aspnet-Hepty-E90DFB66-A7FC-4D91-8C5F-2BFB42EC0AEF</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0-preview.2.20167.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.0-preview.2.20167.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0-preview.2.20167.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.0-preview.2.20167.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.2.20159.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-preview.2.20159.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.1" />
+  </ItemGroup>
+
+</Project>
